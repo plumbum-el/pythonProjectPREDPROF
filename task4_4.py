@@ -23,7 +23,7 @@ def generate_promo(string):
     return login
 
 
-with open('products.csv.csv', encoding='utf-8') as data_file:
+with open('products.csv', encoding='utf-8') as data_file:
     # Преобразовать reader к списку
     product_data = list(reader(data_file, delimiter=','))
     # Строка с заголовками столбцов
